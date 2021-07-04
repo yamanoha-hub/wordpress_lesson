@@ -80,3 +80,163 @@
 [03-Jul-2021 07:17:01 UTC] PHP   6. install_popular_tags() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-admin/includes/plugin-install.php:285
 [03-Jul-2021 07:17:01 UTC] PHP   7. plugins_api() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-admin/includes/plugin-install.php:252
 [03-Jul-2021 07:17:01 UTC] PHP   8. trigger_error() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-admin/includes/plugin-install.php:183
+[04-Jul-2021 05:45:35 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/update.php on line 175
+[04-Jul-2021 05:45:35 UTC] PHP Stack trace:
+[04-Jul-2021 05:45:35 UTC] PHP   1. {main}() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-cron.php:0
+[04-Jul-2021 05:45:35 UTC] PHP   2. do_action_ref_array() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-cron.php:138
+[04-Jul-2021 05:45:35 UTC] PHP   3. WP_Hook->do_action() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/plugin.php:551
+[04-Jul-2021 05:45:35 UTC] PHP   4. WP_Hook->apply_filters() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php:316
+[04-Jul-2021 05:45:35 UTC] PHP   5. wp_version_check() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php:292
+[04-Jul-2021 05:45:35 UTC] PHP   6. trigger_error() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/update.php:175
+[04-Jul-2021 05:45:35 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/update.php on line 410
+[04-Jul-2021 05:45:35 UTC] PHP Stack trace:
+[04-Jul-2021 05:45:35 UTC] PHP   1. {main}() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-cron.php:0
+[04-Jul-2021 05:45:35 UTC] PHP   2. do_action_ref_array() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-cron.php:138
+[04-Jul-2021 05:45:35 UTC] PHP   3. WP_Hook->do_action() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/plugin.php:551
+[04-Jul-2021 05:45:35 UTC] PHP   4. WP_Hook->apply_filters() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php:316
+[04-Jul-2021 05:45:35 UTC] PHP   5. wp_update_plugins() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php:292
+[04-Jul-2021 05:45:35 UTC] PHP   6. trigger_error() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/update.php:410
+[04-Jul-2021 05:45:35 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/update.php on line 614
+[04-Jul-2021 05:45:35 UTC] PHP Stack trace:
+[04-Jul-2021 05:45:35 UTC] PHP   1. {main}() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-cron.php:0
+[04-Jul-2021 05:45:35 UTC] PHP   2. do_action_ref_array() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-cron.php:138
+[04-Jul-2021 05:45:35 UTC] PHP   3. WP_Hook->do_action() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/plugin.php:551
+[04-Jul-2021 05:45:35 UTC] PHP   4. WP_Hook->apply_filters() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php:316
+[04-Jul-2021 05:45:35 UTC] PHP   5. wp_update_themes() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php:292
+[04-Jul-2021 05:45:35 UTC] PHP   6. trigger_error() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/update.php:614
+[04-Jul-2021 06:54:36 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-admin/includes/update.php on line 143
+[04-Jul-2021 06:54:36 UTC] PHP Stack trace:
+[04-Jul-2021 06:54:36 UTC] PHP   1. {main}() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-cron.php:0
+[04-Jul-2021 06:54:36 UTC] PHP   2. do_action_ref_array() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-cron.php:138
+[04-Jul-2021 06:54:36 UTC] PHP   3. WP_Hook->do_action() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/plugin.php:551
+[04-Jul-2021 06:54:36 UTC] PHP   4. WP_Hook->apply_filters() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php:316
+[04-Jul-2021 06:54:36 UTC] PHP   5. WP_Site_Health->wp_cron_scheduled_check() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php:292
+[04-Jul-2021 06:54:36 UTC] PHP   6. WP_Site_Health->perform_test() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-admin/includes/class-wp-site-health.php:2743
+[04-Jul-2021 06:54:36 UTC] PHP   7. WP_Site_Health->get_test_background_updates() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-admin/includes/class-wp-site-health.php:177
+[04-Jul-2021 06:54:36 UTC] PHP   8. WP_Site_Health_Auto_Updates->run_tests() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-admin/includes/class-wp-site-health.php:1787
+[04-Jul-2021 06:54:36 UTC] PHP   9. WP_Site_Health_Auto_Updates->test_all_files_writable() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-admin/includes/class-wp-site-health-auto-updates.php:37
+[04-Jul-2021 06:54:36 UTC] PHP  10. get_core_checksums() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-admin/includes/class-wp-site-health-auto-updates.php:332
+[04-Jul-2021 06:54:36 UTC] PHP  11. trigger_error() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-admin/includes/update.php:143
+[04-Jul-2021 06:54:36 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/update.php on line 175
+[04-Jul-2021 06:54:36 UTC] PHP Stack trace:
+[04-Jul-2021 06:54:36 UTC] PHP   1. {main}() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-cron.php:0
+[04-Jul-2021 06:54:36 UTC] PHP   2. do_action_ref_array() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-cron.php:138
+[04-Jul-2021 06:54:36 UTC] PHP   3. WP_Hook->do_action() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/plugin.php:551
+[04-Jul-2021 06:54:36 UTC] PHP   4. WP_Hook->apply_filters() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php:316
+[04-Jul-2021 06:54:36 UTC] PHP   5. wp_version_check() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php:292
+[04-Jul-2021 06:54:36 UTC] PHP   6. trigger_error() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/update.php:175
+[04-Jul-2021 07:09:37 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php on line 10
+[04-Jul-2021 07:10:19 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php on line 10
+[04-Jul-2021 07:10:20 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php on line 10
+[04-Jul-2021 07:10:23 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php on line 10
+[04-Jul-2021 07:10:23 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php on line 10
+[04-Jul-2021 07:10:24 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php on line 10
+[04-Jul-2021 07:10:25 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php on line 10
+[04-Jul-2021 07:10:26 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php on line 10
+[04-Jul-2021 07:10:26 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php on line 10
+[04-Jul-2021 07:10:37 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php on line 10
+[04-Jul-2021 07:10:37 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php on line 10
+[04-Jul-2021 07:10:40 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php on line 10
+[04-Jul-2021 07:10:40 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php on line 10
+[04-Jul-2021 08:35:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_suport() in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php:8
+Stack trace:
+#0 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php(292): mytheme_setup('')
+#1 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-settings.php(538): do_action('after_setup_the...')
+#4 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-config.php(77): require_once('/Users/yasumits...')
+#5 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-load.php(37): require_once('/Users/yasumits...')
+#6 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-blog-header.php(13): require_once('/Users/yasumits...')
+#7 /Users/yasumitsu/Local Sites/wordp in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php on line 8
+[04-Jul-2021 08:35:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_suport() in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php:8
+Stack trace:
+#0 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php(292): mytheme_setup('')
+#1 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-settings.php(538): do_action('after_setup_the...')
+#4 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-config.php(77): require_once('/Users/yasumits...')
+#5 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-load.php(37): require_once('/Users/yasumits...')
+#6 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-blog-header.php(13): require_once('/Users/yasumits...')
+#7 /Users/yasumitsu/Local Sites/wordp in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php on line 8
+[04-Jul-2021 09:32:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_editer_style() in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php:12
+Stack trace:
+#0 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php(292): mytheme_setup('')
+#1 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-settings.php(538): do_action('after_setup_the...')
+#4 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-config.php(77): require_once('/Users/yasumits...')
+#5 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-load.php(37): require_once('/Users/yasumits...')
+#6 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/yasumits...')
+#7 {main}
+  thrown in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php on line 12
+[04-Jul-2021 09:32:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_editer_style() in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php:12
+Stack trace:
+#0 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php(292): mytheme_setup('')
+#1 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-settings.php(538): do_action('after_setup_the...')
+#4 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-config.php(77): require_once('/Users/yasumits...')
+#5 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-load.php(37): require_once('/Users/yasumits...')
+#6 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/yasumits...')
+#7 {main}
+  thrown in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php on line 12
+[04-Jul-2021 09:32:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_editer_style() in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php:12
+Stack trace:
+#0 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php(292): mytheme_setup('')
+#1 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-settings.php(538): do_action('after_setup_the...')
+#4 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-config.php(77): require_once('/Users/yasumits...')
+#5 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-load.php(37): require_once('/Users/yasumits...')
+#6 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-admin/admin.php(34): require_once('/Users/yasumits...')
+#7 /Users/yasumitsu/Local Sites/word in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php on line 12
+[04-Jul-2021 09:32:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_editer_style() in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php:12
+Stack trace:
+#0 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php(292): mytheme_setup('')
+#1 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-settings.php(538): do_action('after_setup_the...')
+#4 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-config.php(77): require_once('/Users/yasumits...')
+#5 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-load.php(37): require_once('/Users/yasumits...')
+#6 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-blog-header.php(13): require_once('/Users/yasumits...')
+#7 /Users/yasumitsu/Local Sites/word in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php on line 12
+[04-Jul-2021 09:32:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_editer_style() in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php:12
+Stack trace:
+#0 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php(292): mytheme_setup('')
+#1 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-settings.php(538): do_action('after_setup_the...')
+#4 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-config.php(77): require_once('/Users/yasumits...')
+#5 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-load.php(37): require_once('/Users/yasumits...')
+#6 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-admin/admin.php(34): require_once('/Users/yasumits...')
+#7 /Users/yasumitsu/Local Sites/word in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php on line 12
+[04-Jul-2021 09:32:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_editer_style() in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php:12
+Stack trace:
+#0 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php(292): mytheme_setup('')
+#1 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-settings.php(538): do_action('after_setup_the...')
+#4 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-config.php(77): require_once('/Users/yasumits...')
+#5 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-load.php(37): require_once('/Users/yasumits...')
+#6 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-blog-header.php(13): require_once('/Users/yasumits...')
+#7 /Users/yasumitsu/Local Sites/word in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php on line 12
+[04-Jul-2021 09:32:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_editer_style() in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php:12
+Stack trace:
+#0 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php(292): mytheme_setup('')
+#1 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-settings.php(538): do_action('after_setup_the...')
+#4 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-config.php(77): require_once('/Users/yasumits...')
+#5 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-load.php(37): require_once('/Users/yasumits...')
+#6 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-admin/admin.php(34): require_once('/Users/yasumits...')
+#7 /Users/yasumitsu/Local Sites/word in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php on line 12
+[04-Jul-2021 09:32:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_editer_style() in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php:12
+Stack trace:
+#0 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php(292): mytheme_setup('')
+#1 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-settings.php(538): do_action('after_setup_the...')
+#4 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-config.php(77): require_once('/Users/yasumits...')
+#5 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-load.php(37): require_once('/Users/yasumits...')
+#6 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-blog-header.php(13): require_once('/Users/yasumits...')
+#7 /Users/yasumitsu/Local Sites/word in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/functions.php on line 12
