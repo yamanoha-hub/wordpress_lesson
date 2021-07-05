@@ -10,3 +10,7 @@ AH00558: httpd: Could not reliably determine the server's fully qualified domain
 [Sun Jul 04 14:45:32.852721 2021] [mpm_event:notice] [pid 15253:tid 4654476800] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
 [Sun Jul 04 14:45:32.853489 2021] [core:notice] [pid 15253:tid 4654476800] AH00094: Command line: '/Users/yasumitsu/Library/Application Support/Local/lightning-services/apache-2.4.43+6/bin/darwin/bin/httpd -D FOREGROUND -f /Users/yasumitsu/Library/Application Support/Local/run/qImID1TFY/conf/apache/apache2.conf'
 [Sun Jul 04 21:53:06.183740 2021] [mpm_event:notice] [pid 15253:tid 4654476800] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using MBAir.local. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 05 11:18:20.728559 2021] [mpm_event:notice] [pid 18424:tid 4520316416] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Mon Jul 05 11:18:20.729148 2021] [core:notice] [pid 18424:tid 4520316416] AH00094: Command line: '/Users/yasumitsu/Library/Application Support/Local/lightning-services/apache-2.4.43+6/bin/darwin/bin/httpd -D FOREGROUND -f /Users/yasumitsu/Library/Application Support/Local/run/qImID1TFY/conf/apache/apache2.conf'
+[Mon Jul 05 19:36:29.584598 2021] [mpm_event:notice] [pid 18424:tid 4520316416] AH00491: caught SIGTERM, shutting down

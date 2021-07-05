@@ -11,7 +11,7 @@
 }
 
 /* フォント */
-body {
+body, .editor-post-title__input {
   font-family: sans-serif;
 }
 p {
@@ -43,3 +43,15 @@ h2 {
   padding-left: 14px;
 }
 
+.wp-block {
+  max-width:  calc(720px + 30px);
+}
+
+/* 横幅 */
+.wp-block:not([data-align="full"]):not([data-align="wide"]) {
+  max-width: calc(720px + 30px);
+}
+
+.wp-block[data-align="wide"] {
+  max-width:  calc(1020px + 30px);
+}
