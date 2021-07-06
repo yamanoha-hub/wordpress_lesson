@@ -447,3 +447,21 @@ Stack trace:
 #5 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-blog-header.php(19): require_once('/Users/yasumits...')
 #6 /Users/yasumitsu/Local Sites/wordpresslesson/app/public/index.php(17): require('/Users/yasumits...')
 #7 { in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-content/themes/mytheme/sidebar.php on line 9
+[06-Jul-2021 06:54:39 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/update.php on line 175
+[06-Jul-2021 06:54:39 UTC] PHP Stack trace:
+[06-Jul-2021 06:54:39 UTC] PHP   1. {main}() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-cron.php:0
+[06-Jul-2021 06:54:39 UTC] PHP   2. do_action_ref_array() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-cron.php:138
+[06-Jul-2021 06:54:39 UTC] PHP   3. WP_Hook->do_action() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/plugin.php:551
+[06-Jul-2021 06:54:39 UTC] PHP   4. WP_Hook->apply_filters() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php:316
+[06-Jul-2021 06:54:39 UTC] PHP   5. wp_version_check() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php:292
+[06-Jul-2021 06:54:39 UTC] PHP   6. trigger_error() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/update.php:175
+[06-Jul-2021 07:55:13 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-admin/includes/plugin-install.php on line 183
+[06-Jul-2021 07:55:13 UTC] PHP Stack trace:
+[06-Jul-2021 07:55:13 UTC] PHP   1. {main}() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-admin/plugin-install.php:0
+[06-Jul-2021 07:55:13 UTC] PHP   2. do_action() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-admin/plugin-install.php:173
+[06-Jul-2021 07:55:13 UTC] PHP   3. WP_Hook->do_action() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/plugin.php:484
+[06-Jul-2021 07:55:13 UTC] PHP   4. WP_Hook->apply_filters() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php:316
+[06-Jul-2021 07:55:13 UTC] PHP   5. install_dashboard() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-includes/class-wp-hook.php:292
+[06-Jul-2021 07:55:13 UTC] PHP   6. install_popular_tags() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-admin/includes/plugin-install.php:285
+[06-Jul-2021 07:55:13 UTC] PHP   7. plugins_api() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-admin/includes/plugin-install.php:252
+[06-Jul-2021 07:55:13 UTC] PHP   8. trigger_error() /Users/yasumitsu/Local Sites/wordpresslesson/app/public/wp-admin/includes/plugin-install.php:183

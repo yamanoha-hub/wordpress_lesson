@@ -14,3 +14,11 @@ AH00558: httpd: Could not reliably determine the server's fully qualified domain
 [Mon Jul 05 11:18:20.728559 2021] [mpm_event:notice] [pid 18424:tid 4520316416] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
 [Mon Jul 05 11:18:20.729148 2021] [core:notice] [pid 18424:tid 4520316416] AH00094: Command line: '/Users/yasumitsu/Library/Application Support/Local/lightning-services/apache-2.4.43+6/bin/darwin/bin/httpd -D FOREGROUND -f /Users/yasumitsu/Library/Application Support/Local/run/qImID1TFY/conf/apache/apache2.conf'
 [Mon Jul 05 19:36:29.584598 2021] [mpm_event:notice] [pid 18424:tid 4520316416] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using MBAir.local. Set the 'ServerName' directive globally to suppress this message
+[Tue Jul 06 15:41:26.159693 2021] [mpm_event:notice] [pid 2101:tid 4585508352] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Tue Jul 06 15:41:26.160443 2021] [core:notice] [pid 2101:tid 4585508352] AH00094: Command line: '/Users/yasumitsu/Library/Application Support/Local/lightning-services/apache-2.4.43+6/bin/darwin/bin/httpd -D FOREGROUND -f /Users/yasumitsu/Library/Application Support/Local/run/qImID1TFY/conf/apache/apache2.conf'
+[Tue Jul 06 16:18:09.636462 2021] [mpm_event:notice] [pid 2101:tid 4585508352] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using MBAir.local. Set the 'ServerName' directive globally to suppress this message
+[Tue Jul 06 16:18:13.393098 2021] [mpm_event:notice] [pid 2493:tid 4668444160] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Tue Jul 06 16:18:13.393783 2021] [core:notice] [pid 2493:tid 4668444160] AH00094: Command line: '/Users/yasumitsu/Library/Application Support/Local/lightning-services/apache-2.4.43+6/bin/darwin/bin/httpd -D FOREGROUND -f /Users/yasumitsu/Library/Application Support/Local/run/qImID1TFY/conf/apache/apache2.conf'
+[Tue Jul 06 17:37:27.507811 2021] [mpm_event:notice] [pid 2493:tid 4668444160] AH00491: caught SIGTERM, shutting down

@@ -114,18 +114,8 @@ body {
 }
 
 @media (min-width: 740px) {
-  .mymenu {
-    columns: 3;
-    column-gap: 30px;
-  }
-  .mymenu-columns > section {
-    position: relative;
-    overflow: hidden;
-    break-inside: avoid;
-  }
   .mycontainer {
     max-width: var(--myw);
-
     margin-left: calc((100vw - var(--myw)) / 2);
     margin-right: calc((100vw - var(--myw)) / 2);
   }
@@ -360,5 +350,56 @@ a:hover {
   height: 40px;
   border: 1px solid #aaa;
 }
+@media (min-width: 740px) {
+  .mymenu-columns {
+    columns: 3;
+    column-gap: 30px;
+  }
+  .mymenu-columns > section {
+    position: relative;
+    overflow: hidden;
+    break-inside: avoid;
+  }
+}
+.mymargin {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* お問い合わせ */
+.wpcf-text,
+.wpcf7-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+}
+.wpcf7-submit {
+  width: 250px;
+  padding: 10px;
+  border: none;
+  background-color: #fa0;
+  -webkit-appearance: none;
+}
+
+/* ナビゲーションメニュー */
+.mynav {
+  padding: 7px 0;
+  background-image:  var(--gradient);
+  color: #fff;
+  font-size: var(--f6);
+}
+
+.mynav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav li:not(:last-child) {
+  margin-right: 1em;
+}
+
+
 
 

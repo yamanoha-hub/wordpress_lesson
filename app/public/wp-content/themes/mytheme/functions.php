@@ -23,6 +23,11 @@
 
     // 全幅・幅広を有効化
     add_theme_support('align-wide');
+
+    // メニューのロケーションを登録
+    register_nav_menus(array(
+      'primary' => 'ナビゲーション'
+    ));
 	}
 	add_action( 'after_setup_theme', 'mytheme_setup' );
   
@@ -44,6 +49,7 @@
   add_action('wp_enqueue_scripts', 'mytheme_enqueue');
 
   function mytheme_widgets() {
+    
     // ウィジットエリアを登録
     register_sidebar( array(
       'id' => 'sidebar-1',
